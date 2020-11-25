@@ -12,23 +12,23 @@ const presenter = (props: { pathname: string; toggleMenu: () => void }) => {
         <div className="header__toggle-btn" onClick={toggleMenu}>
           <span></span>
         </div>
-        <Brand logo="/assets/LogoPlace_420x160.png" name="My Company" />
+        <Brand logo="/assets/logo.png" name="TuNotebookLP" />
         <nav className="header__nav">
           <ul>
-            <Item path="/" name="Home" onClicked={toggleMenu} />
+            <Item path="/" name="Inicio" onClicked={toggleMenu} />
             <Item
               path={isRoot ? '#products' : '/#products'}
-              name="Products"
+              name="Productos"
               onClicked={toggleMenu}
             />
-            <Item path={isRoot ? '#pricing' : '/#pricing'} name="Pricing" onClicked={toggleMenu} />
+            <Item path={isRoot ? '#pricing' : '/#pricing'} name="Precios" onClicked={toggleMenu} />
             <Item
               path={isRoot ? '#features' : '/#features'}
-              name="Features"
+              name="Promociones y Sorteos"
               onClicked={toggleMenu}
             />
-            <Item path={isRoot ? '#about' : '/#about'} name="About" onClicked={toggleMenu} />
-            <Item path="/blog" name="Blog" onClicked={toggleMenu} />
+            <Item path={isRoot ? '#about' : '/#about'} name="Sobre Nosotros" onClicked={toggleMenu} />
+            <Item path="/blog" name="Nuestro Blog" onClicked={toggleMenu} />
           </ul>
         </nav>
       </div>

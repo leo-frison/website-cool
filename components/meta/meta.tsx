@@ -6,7 +6,7 @@ const Meta = (props: IMeta) => {
   const siteName = 'junekim.xyz';
   const homeUrl = process.env.PUBLIC_URL || 'https://landing.junekim.xyz';
   const {
-    image = `${homeUrl}/assets/LogoPlace_Extended_1200x627.png`,
+    image = `${homeUrl}/assets/logo.png`,
     imageWidth = '1200',
     imageHeight = '627',
   } = props;

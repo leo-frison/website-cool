@@ -13,9 +13,9 @@ const Presenter = () => {
           playsInline
         ></video>
         <div className="home__pitch">
-          <h1>Find the unique solution</h1>
-          <h1>for all your problems</h1>
-          <p>It is just a click away from you</p>
+          <h1>Busca en Looking web tu solucion</h1>
+          <h1>para resolver todos tus problemas</h1>
+          <p> a un click de distancia</p>
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ const presenter = () => {
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officia eius necessitatibus est, sequi ducimus totam velit fugiat';
   const company_desc = (
     <>
-      <strong>My Company</strong> is {longLorem}
+      <strong>TuNotebookLP</strong> is {longLorem}
     </>
   );
 
@@ -18,7 +18,7 @@ const presenter = () => {
       <div className="about__container">
         <h1 className="about__title page-title">About</h1>
         <h2 className="about__subtitle">Who are we?</h2>
-        <Brand logo="/assets/LogoPlace_420x160.png" desc={company_desc} />
+        <Brand logo="/assets/logo.png" desc={company_desc} />
         <h2 className="about__subtitle">Our Mission</h2>
         <p className="about__mission">{longLorem}</p>
         <h2 className="about__subtitle">Faces behind the curtain</h2>
